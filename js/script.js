@@ -29,7 +29,7 @@ const projects = [
     {
       title: "Reservia,Hébergement pour des vacances.",
       description: "HTML/CSS/responsive",
-      image: "./image/reservia.png",
+      image: "./image/reservia.PNG",
       technologies: ["HTML", "CSS"],
       links: [
         { url: "https://salma581.github.io/2_bouchemla_salma/", text: "Voir le site", icon: "fa-external-link-alt" },
@@ -39,7 +39,7 @@ const projects = [
     {
       title: "Site qui propose des restaurant avec leur menu",
       description: "Utilisation d'animation",
-      image: "./image/ohmyfood.png",
+      image: "./image/ohmyfood.PNG",
       technologies: ["html", "css", "animation"],
       links: [
         { url: "https://salma581.github.io/3_bouchemla_salma/", text: "Demo", icon: "fa-play" },
