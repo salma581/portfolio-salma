@@ -29,7 +29,7 @@ const projects = [
     {
       title: "Reservia,Hébergement pour des vacances.",
       description: "HTML/CSS/responsive",
-      image: "./image/reservia.PNG",
+      image: "./images/reservia.png",
       technologies: ["HTML", "CSS"],
       links: [
         { url: "https://salma581.github.io/2_bouchemla_salma/", text: "Voir le site", icon: "fa-external-link-alt" },
@@ -39,7 +39,7 @@ const projects = [
     {
       title: "Site qui propose des restaurant avec leur menu",
       description: "Utilisation d'animation",
-      image: "./image/ohmyfood.PNG",
+      image: "./images/ohmyfood.png",
       technologies: ["html", "css", "animation"],
       links: [
         { url: "https://salma581.github.io/3_bouchemla_salma/", text: "Demo", icon: "fa-play" },
@@ -47,62 +47,57 @@ const projects = [
       ]
     },
     {
-      title: "Portfolio Photographe",
-      description: "Galerie animée avec Lightbox",
-      image: "assets/projets/photographe.jpg",
-      technologies: ["CSS Grid", "JavaScript"],
+      title: "la choette agence",
+      description: "Agence qui aide les entreprises a etre attractives et visible sur internet",
+      image: "./images/chouette.png",
+      technologies: ["html" ,"CSS ", "seo"],
       links: [
-        { url: "https://portfolio-photo-exemple.com", text: "Visiter", icon: "fa-camera" }
+        { url: "https://salma581.github.io/4_bouchemla_salma/", text: "Demo", icon: "fa-play" },
+        { url: "https://github.com/salma581/4_bouchemla_salma.git", text: "Code", icon: "fab fa-github"}
       ]
     },
     {
-      title: "Jeu Memory",
-      description: "Jeu de cartes avec système de score",
-      image: "assets/projets/memory.jpg",
+      title: "Englishjoy",
+      description: "Englishjoy - Cours d'anglais pour enfants",
+      image: "./images/Englishjoy.png",
+      technologies: ["html" ,"CSS ", "seo","javascript"],
+      links: [
+        { url: "https://salma581.github.io/englishjoy/", text: "Demo", icon: "fa-play" },
+        { url: "https://github.com/salma581/englishjoy.git", text: "Code", icon: "fab fa-github"}
+      ]
+    },
+    {
+      title: "kanap",
+      description: "site qui vent des canapées",
+      image: "./images/kanap.png",
       technologies: ["JavaScript", "Animations CSS"],
       links: [
-        { url: "https://ton-jeu-memory.github.io", text: "Jouer", icon: "fa-gamepad" },
-        { url: "https://github.com/tonuser/jeu-memory", text: "Code", icon: "fab fa-github" }
+        { url: "https://salma581.github.io/5_bouchemla_salma/", text: "kanap", icon: "fa-gamepad" },
+        { url: "https://github.com/salma581/5_bouchemla_salma.git", text: "Code", icon: "fab fa-github" }
       ]
     },
     {
-      title: "Blog Personnel",
-      description: "Intégration avec système de commentaires",
+      title: "piquente",
+      description: "site création des sauces",
       image: "assets/projets/blog.jpg",
-      technologies: ["HTML", "CSS", "PHP"],
+      technologies: ["frontend", "backend","mongodb","node.js"],
       links: [
-        { url: "https://ton-blog-personnel.com", text: "Lire", icon: "fa-book-open" }
+        { url: "https://salma581.github.io/6_bouchemla_salma/", text: "Demo", icon: "fa-play" },
+        { url: "https://github.com/salma581/6_bouchemla_salma.git", text: "Code", icon: "fab fa-github"}
       ]
     },
-    {
-      title: "Calculateur IMC",
-      description: "Application santé avec graphiques",
-      image: "assets/projets/imc.jpg",
-      technologies: ["Chart.js", "JavaScript"],
-      links: [
-        { url: "https://calcul-imc-exemple.netlify.app", text: "Essayer", icon: "fa-calculator" },
-        { url: "https://github.com/tonuser/calculateur-imc", text: "Code", icon: "fab fa-github"}
-      ]
-    },
+    
     {
       title: "Site E-commerce",
-      description: "Panier dynamique en JS",
+      description: "présentation d'appartements a louées",
       image: "assets/projets/ecommerce.jpg",
-      technologies: ["JavaScript", "LocalStorage"],
+      technologies: ["JavaScript", "LocalStorage", "react"],
       links: [
-        { url: "https://boutique-test.vercel.app", text: "Boutique", icon: "fa-shopping-cart" }
+        { url: " https://salma581.github.io/7_bouchemla_salma/", text: "Demo", icon: "fa-play" },
+        { url: "https://github.com/salma581/7_bouchemla_salma.git", text: "Code", icon: "fab fa-github"}
       ]
     },
-    {
-      title: "CV Interactif",
-      description: "Animation timeline et compétences",
-      image: "assets/projets/cv.jpg",
-      technologies: ["CSS Animations", "GSAP"],
-      links: [
-        { url: "https://mon-cv-interactif.com", text: "Voir CV", icon: "fa-user-tie" },
-        { url: "https://github.com/tonuser/cv-interactif", text: "Code", icon: "fab fa-github"}
-      ]
-    }
+    
   ];
   
   // ===== FONCTIONS =====
