@@ -29,7 +29,7 @@ const projects = [
     {
       title: "Reservia,Hébergement pour des vacances.",
       description: "HTML/CSS/responsive",
-      image: "./images/reservia.PNG",
+      image: "./images/reservia.png",
       technologies: ["HTML", "CSS"],
       links: [
         { url: "https://salma581.github.io/2_bouchemla_salma/", text: "Voir le site", icon: "fa-external-link-alt" },
@@ -39,7 +39,7 @@ const projects = [
     {
       title: "Site qui propose des restaurant avec leur menu",
       description: "Utilisation d'animation",
-      image: "./images/ohmyfood.PNG",
+      image: "./images/ohmyfood.png",
       technologies: ["html", "css", "animation"],
       links: [
         { url: "https://salma581.github.io/3_bouchemla_salma/", text: "Demo", icon: "fa-play" },
@@ -49,7 +49,7 @@ const projects = [
     {
       title: "la choette agence",
       description: "Agence qui aide les entreprises a etre attractives et visible sur internet",
-      image: "./images/chouette.PNG",
+      image: "./images/chouette.png",
       technologies: ["html" ,"CSS ", "seo"],
       links: [
         { url: "https://salma581.github.io/4_bouchemla_salma/", text: "Demo", icon: "fa-play" },
@@ -59,7 +59,7 @@ const projects = [
     {
       title: "Englishjoy",
       description: "Englishjoy - Cours d'anglais pour enfants",
-      image: "./images/Englishjoy.PNG",
+      image: "./images/Englishjoy.png",
       technologies: ["html" ,"CSS ", "seo","javascript"],
       links: [
         { url: "https://salma581.github.io/englishjoy/", text: "Demo", icon: "fa-play" },
@@ -69,7 +69,7 @@ const projects = [
     {
       title: "kanap",
       description: " Un site qui vent de canapées",
-      image: "./images/kanap.PNG",
+      image: "./images/kanap.png",
       technologies: ["JavaScript", "Animations CSS"],
       links: [
         { url:"https://five-bouchemla-salma.onrender.com", text: "kanap", icon: "fa-gamepad"  },
@@ -79,7 +79,7 @@ const projects = [
     {
       title: "piquente",
       description: "site création des sauces",
-      image:"./images/piquante.PNG",
+      image:"./images/piquante.png",
       technologies: ["frontend", "backend","mongodb","node.js"],
       links: [
         { url: "https://salma581.github.io/6_bouchemla_salma/", text: "Demo", icon: "fa-play" },
@@ -90,7 +90,7 @@ const projects = [
     {
       title: "Site E-commerce",
       description: "présentation d'appartements a louées",
-      image: "./images/localstorage.PNG",
+      image: "./images/localstorage.png",
       technologies: ["JavaScript", "LocalStorage", "react"],
       links: [
         { url: " https://salma581.github.io/7_bouchemla_salma/", text: "Demo", icon: "fa-play" },
