@@ -72,7 +72,7 @@ const projects = [
       image: "./images/kanap.png",
       technologies: ["JavaScript", "Animations CSS"],
       links: [
-        { url: "https://salma581.github.io/5_bouchemla_salma/", text: "kanap", icon: "fa-gamepad" },
+        { url:"https://five-bouchemla-salma.onrender.com", text: "kanap", icon: "fa-gamepad"  },
         { url: "https://github.com/salma581/5_bouchemla_salma.git", text: "Code", icon: "fab fa-github" }
       ]
     },
