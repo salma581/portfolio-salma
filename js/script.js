@@ -79,7 +79,7 @@ const projects = [
     {
       title: "piquente",
       description: "site création des sauces",
-      image: "assets/projets/blog.jpg",
+      image:"./images/piquante.PNG",
       technologies: ["frontend", "backend","mongodb","node.js"],
       links: [
         { url: "https://salma581.github.io/6_bouchemla_salma/", text: "Demo", icon: "fa-play" },
@@ -90,7 +90,7 @@ const projects = [
     {
       title: "Site E-commerce",
       description: "présentation d'appartements a louées",
-      image: "assets/projets/ecommerce.jpg",
+      image: "./images/localstorage.PNG",
       technologies: ["JavaScript", "LocalStorage", "react"],
       links: [
         { url: " https://salma581.github.io/7_bouchemla_salma/", text: "Demo", icon: "fa-play" },
