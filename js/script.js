@@ -29,7 +29,7 @@ const projects = [
     {
       title: "Reservia,Hébergement pour des vacances.",
       description: "HTML/CSS/responsive",
-      image: "./images/reservia.png",
+      image: "./images/reservia.PNG",
       technologies: ["HTML", "CSS"],
       links: [
         { url: "https://salma581.github.io/2_bouchemla_salma/", text: "Voir le site", icon: "fa-external-link-alt" },
@@ -39,7 +39,7 @@ const projects = [
     {
       title: "Site qui propose des restaurant avec leur menu",
       description: "Utilisation d'animation",
-      image: "./images/ohmyfood.png",
+      image: "./images/ohmyfood.PNG",
       technologies: ["html", "css", "animation"],
       links: [
         { url: "https://salma581.github.io/3_bouchemla_salma/", text: "Demo", icon: "fa-play" },
@@ -49,7 +49,7 @@ const projects = [
     {
       title: "la choette agence",
       description: "Agence qui aide les entreprises a etre attractives et visible sur internet",
-      image: "./images/chouette.png",
+      image: "./images/chouette.PNG",
       technologies: ["html" ,"CSS ", "seo"],
       links: [
         { url: "https://salma581.github.io/4_bouchemla_salma/", text: "Demo", icon: "fa-play" },
@@ -59,7 +59,7 @@ const projects = [
     {
       title: "Englishjoy",
       description: "Englishjoy - Cours d'anglais pour enfants",
-      image: "./images/Englishjoy.png",
+      image: "./images/Englishjoy.PNG",
       technologies: ["html" ,"CSS ", "seo","javascript"],
       links: [
         { url: "https://salma581.github.io/englishjoy/", text: "Demo", icon: "fa-play" },
@@ -68,8 +68,8 @@ const projects = [
     },
     {
       title: "kanap",
-      description: "site qui vent des canapées",
-      image: "./images/kanap.png",
+      description: " Un site qui vent de canapées",
+      image: "./images/kanap.PNG",
       technologies: ["JavaScript", "Animations CSS"],
       links: [
         { url:"https://five-bouchemla-salma.onrender.com", text: "kanap", icon: "fa-gamepad"  },
