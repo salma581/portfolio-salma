@@ -1,8 +1,3 @@
-// Menu mobile
-document.querySelector('.hamburger').addEventListener('click', () => {
-    document.querySelector('.nav-links').classList.toggle('active');
-});
-
 // Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -12,7 +7,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
 // Animation au scroll
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
@@ -47,8 +41,8 @@ const projects = [
       ]
     },
     {
-      title: "la choette agence",
-      description: "Agence qui aide les entreprises a etre attractives et visible sur internet",
+      title: "La Chouette Agence",
+      description: "Agence qui aide les entreprises a être attractives et visible sur internet",
       image: "./images/chouette.png",
       technologies: ["html" ,"CSS ", "seo"],
       links: [
@@ -68,7 +62,7 @@ const projects = [
     },
     {
       title: "kanap",
-      description: " Un site qui vent de canapées",
+      description: " Site e-commerce dynamique avec gestion des produits via API JavaScript.",
       image: "./images/kanap.png",
       technologies: ["JavaScript", "Animations CSS"],
       links: [
@@ -78,7 +72,7 @@ const projects = [
     },
     {
       title: "piquente",
-      description: "site création des sauces",
+      description: "site de création de sauces",
       image:"./images/piquante.png",
       technologies: ["frontend", "backend","mongodb","node.js"],
       links: [
@@ -89,7 +83,7 @@ const projects = [
     
     {
       title: "Site E-commerce",
-      description: "présentation d'appartements a louées",
+      description: "présentation d’appartements à louer",
       image: "./images/localstorage.png",
       technologies: ["JavaScript", "LocalStorage", "react"],
       links: [
