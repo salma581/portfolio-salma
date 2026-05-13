@@ -150,7 +150,13 @@ const projects = [
       hamburger.classList.toggle('toggle');
     });
   }
-  
+  // Fermer le menu après clic sur un lien
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.remove('active');
+    document.querySelector('.hamburger').classList.remove('toggle');
+  });
+});
   // ===== INITIALISATION =====
   document.addEventListener('DOMContentLoaded', () => {
     renderProjects();

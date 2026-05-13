@@ -103,8 +103,12 @@
   .nav-links {
     display: flex;
     list-style: none;
+    transition: all 0.3s ease;
   }
-  
+  .nav-links.active {
+  display: flex;
+  animation: fadeIn 0.3s ease;
+}
   .nav-links li a {
     color: var(--dark);
     text-decoration: none;
@@ -229,8 +233,27 @@
     /* animation: float 6s ease-in-out infinite, gradientBG 8s ease infinite; */
     background-size: 200% 200%;
   }
+   .hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
 
-  
+.btn-cv {
+  background: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-cv:hover {
+  background: var(--primary);
+  color: white;
+}
+  @media (max-width: 768px) {
+  .hero-buttons {
+    justify-content: center;
+  }
+}
   
   /* ===== PROJECTS SECTION ===== */
   .projects {
