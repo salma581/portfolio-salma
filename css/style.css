@@ -207,7 +207,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* animation: fadeIn 1s 0.4s both; */
+    
   } 
   .hero-image img {
   width: 380px;
@@ -243,6 +243,7 @@
   background: transparent;
   border: 2px solid var(--primary);
   color: var(--primary);
+  
 }
 
 .btn-cv:hover {
@@ -252,6 +253,13 @@
   @media (max-width: 768px) {
   .hero-buttons {
     justify-content: center;
+   
+  }
+  .btn-cv {
+    margin: 12px 30px;
+  }
+  .hamburger {
+    margin-bottom: 12px;
   }
 }
   
