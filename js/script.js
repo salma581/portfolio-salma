@@ -76,7 +76,7 @@ const projects = [
       image:"./images/piquante.png",
       technologies: ["frontend", "backend","mongodb","node.js"],
       links: [
-        { url: "https://salma581.github.io/6_bouchemla_salma/", text: "Demo", icon: "fa-play" },
+        { url: "https://six-bouchemla-salma.onrender.com", text: "Demo", icon: "fa-play" },
         { url: "https://github.com/salma581/6_bouchemla_salma.git", text: "Code", icon: "fab fa-github"}
       ]
     },
