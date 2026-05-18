@@ -82,12 +82,12 @@ const projects = [
     },
     
     {
-      title: "Site E-commerce",
+      title: "Site E-commerce Kasa",
       description: "présentation d’appartements à louer",
-      image: "./images/localstorage.png",
+      image: "./images/kasa.png",
       technologies: ["JavaScript", "LocalStorage", "react"],
       links: [
-        { url: " https://salma581.github.io/7_bouchemla_salma/", text: "Demo", icon: "fa-play" },
+        { url: " https://p7-kasa.onrender.com", text: "Demo", icon: "fa-play" },
         { url: "https://github.com/salma581/7_bouchemla_salma.git", text: "Code", icon: "fab fa-github"}
       ]
     },
